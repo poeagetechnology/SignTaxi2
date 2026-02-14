@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.footer-title {
+  @apply text-lg font-semibold text-black mb-3;
+}
+
+.footer-list {
+  @apply space-y-1 text-sm text-black;
+}
+
+.footer-list li {
+  @apply hover:text-red-500 transition cursor-pointer;
+}
+
+.app-btn {
+  @apply w-full flex items-center justify-center
+  bg-gray-800 text-gray-200 text-sm py-2 rounded
+  hover:bg-red-600 hover:text-white transition;
+}
